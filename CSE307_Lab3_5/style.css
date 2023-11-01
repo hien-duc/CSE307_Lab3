@@ -1,4 +1,31 @@
 * {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+}
+header div#dn a:hover {
+  color: #900;
+}
+#log {
+  float: right;
+}
+#nav {
+  text-align: center;
+  padding: 10px;
+  text-align: none;
+  font-size: large;
+}
+#nav a {
+  padding: 60px;
+}
+
+nav {
+  background-color: aquamarine;
+}
+#body {
+  background-color: rgb(96, 188, 211);
+}
+#search {
+  text-align: right;
   padding: 0px;
+  font-size: large;
 }
