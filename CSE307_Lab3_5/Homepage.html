@@ -3,22 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>ABC BookStore</title>
   </head>
   <body>
     <header>
-      <center>
-        <div>
-          <img src="logoABCbook.png" alt="" />
-        </div>
-        <div>
-          <a href="login.html"
-            ><i class="fa fa-user" aria-hidden="true"></i>
-            Login|
-          </a>
-          <a href="Registration.html"> Registration </a>
-        </div>
-      </center>
+      <div>
+        <img src="logoABCbook.png" alt="" />
+      </div>
+      <div>
+        <a href="login.html"
+          ><i class="fa fa-user" aria-hidden="true"></i>
+          Login|
+        </a>
+        <a href="Registration.html"> Registration </a>
+        <a href="#">
+          <i class="fa fa-shopping-cart" aria-hidden="true">Cart</i>
+        </a>
+      </div>
     </header>
 
     <nav>
@@ -33,10 +38,10 @@
         <button>Find books</button>
         <ul>
           <li>
-            <a href="ImageandLink.html"><u>Home Page</u></a>
+            <a href="Homepage.html"><u>Home Page</u></a>
           </li>
           <li>
-            <a href=""><u>Introduction</u></a>
+            <a href="ImageandLink.html"><u>Introduction</u></a>
           </li>
           <li>
             <a href=""><u>Contact</u></a>
@@ -49,7 +54,7 @@
       <!-- Rules on the body of the page -->
       <article>
         <aside>
-          <div style="background-color: aqua; width: 200px" type="square">
+          <div style="width: 200px" type="square">
             <h5>SÁCH THEO CHỦ ĐỀ</h5>
             <ul>
               <li><a href="#">Ngoại ngữ</a></li>
@@ -78,35 +83,28 @@
         </aside>
 
         <section>
-          <center>
-            <div>
-              <table
-                border="1"
-                style="background-color: rgb(192, 232, 246); border-color: blue"
-              >
-                <tr>
-                  <td>
-                    <center>
-                      <h1 style="color: blue">Giáo trình Tin học cơ bản</h1>
-                      <img src="xp.jpg" alt="tin hoc co ban" height="280" />
-                      <p>Đơn giá:</p>
-                      <p style="color: red">26.000 VND</p>
+          <div>
+            <table>
+              <tr>
+                <td>
+                  <h1 style="color: blue">Giáo trình Tin học cơ bản</h1>
+                  <img src="xp.jpg" alt="tin hoc co ban" height="280" />
+                  <p>Đơn giá:</p>
+                  <p style="color: red">26.000 VND</p>
 
-                      <input
-                        type="image"
-                        name=""
-                        id=""
-                        src="buy.jpg"
-                        style="width: 85px"
-                        value="Đặt mua"
-                        onclick="window.location.href='detailproduct.html'"
-                      />
-                    </center>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </center>
+                  <input
+                    type="image"
+                    name=""
+                    id=""
+                    src="buy.jpg"
+                    style="width: 85px"
+                    value="Đặt mua"
+                    onclick="window.location.href='detailproduct.html'"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
         </section>
 
         <aside>
@@ -146,6 +144,38 @@
                 >
               </p></marquee
             >
+            <marquee
+              behavior=""
+              direction="up"
+              scrollamount="5"
+              scrolldelay="100"
+              onmousemove="stop()"
+              onmouseout="start()"
+            >
+              <p>
+                <a href="#"
+                  ><img
+                    src="harrypotter.png"
+                    alt=""
+                    width="300"
+                  />HarryPotter</a
+                >
+              </p></marquee
+            >
+            <marquee
+              behavior=""
+              direction="up"
+              scrollamount="5"
+              scrolldelay="100"
+              onmousemove="stop()"
+              onmouseout="start()"
+            >
+              <p>
+                <a href="#"
+                  ><img src="Davinci.png" alt="" width="300" />Davinci</a
+                >
+              </p></marquee
+            >
           </p>
           <h1>THE WEBSITE LINKS</h1>
           <select name="" id="">
@@ -163,7 +193,7 @@
       </article>
     </div>
     <footer>
-      <p>@2016-ABC Bookstore: All rights reserved</p>
+      <p>©2016-ABC Bookstore: All rights reserved</p>
       <p>
         Website is developed to be used as a hands-on exercise in Web
         Programming
