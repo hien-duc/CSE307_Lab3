@@ -8,24 +8,24 @@
   <body>
     <center>
       
-        <form action="">
+        <form action="#" name="dangky" method="post">
           <caption>
-            ĐĂNG KÝ THÀNH VIÊN
+            MEMBER REGISTRATION
           </caption>
 
           <fieldset style="width: 450px">
-            <legend>Thông tin cá nhân</legend>
+            <legend>Personal information</legend>
 
             <table>
               <tr>
-                <td><label for="name">Họ và tên:</label></td>
+                <td><label for="name">Full name:</label></td>
                 <td><input type="text" id="name" required="true" /></td>
               </tr>
               <tr>
-                <td><label for="day">Ngày sinh:</label></td>
+                <td><label for="day">Birthday:</label></td>
                 <td>
                   <select name="day" id="day" required="true">
-                    <option value="1">1</option>
+                    <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -58,9 +58,9 @@
                     <option value="31">31</option>
                     
                   </select>
-                  <label for="month">Tháng</label>
+                  <label for="month">Month</label>
                   <select name="month" id="month" required="true">
-                    <option value="1">1</option>
+                    <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -74,24 +74,24 @@
                     <option value="12">12</option>
                   </select>
                 </td>
-                <td><label for="year">Năm</label></td>
-                <td><input type size="5px" id="year" required="true" /></td>
+                <td><label for="year">Year</label></td>
+                <td><input type="number" size="5px" id="year" required="true" /></td>
               </tr>
               <tr>
-                <td><label for="gender">Giới tính:</label></td>
+                <td><label for="gender">Gender:</label></td>
                 <td>
                   <input
                     type="radio"
                     name="gender"
                     id="gender"
-                    value="Nam"
+                    value="Male"
                     required="true"
                   />
                 </td>
-                <td><input type="radio" name="gender" id="" value="Nữ" /></td>
+                <td><input type="radio" name="gender" id="" value="Female" /></td>
               </tr>
               <tr>
-                <td><label for="address">Địa chỉ:</label></td>
+                <td><label for="address">Address:</label></td>
                 <td colspan="3">
                   <textarea
                     name=""
@@ -103,7 +103,7 @@
                 </td>
               </tr>
               <tr>
-                <td><label for="phone">Điện thoại:</label></td>
+                <td><label for="phone">Telephone:</label></td>
                 <td colspan="3">
                   <textarea
                     name=""
@@ -130,11 +130,11 @@
             </table>
           </fieldset>
           <fieldset style="width: 450px">
-            <legend>Thông tin đăng nhập</legend>
+            <legend>Credentials: </legend>
 
             <table>
               <tr>
-                <td><label for="loginname">Tên đăng nhập:</label></td>
+                <td><label for="loginname">Username: </label></td>
                 <td>
                   <textarea
                     name=""
@@ -146,7 +146,7 @@
                 </td>
               </tr>
               <tr>
-                <td><label for="loginpass">Mật khẩu:</label></td>
+                <td><label for="loginpass">Password: </label></td>
                 <td>
                   <textarea
                     name=""
@@ -158,7 +158,7 @@
                 </td>
               </tr>
               <tr>
-                <td><label for="passconfirm">Nhập lại mật khẩu:</label></td>
+                <td><label for="passconfirm">Confirm password: </label></td>
                 <td>
                   <textarea
                     name=""
@@ -172,7 +172,7 @@
             </table>
           </fieldset>
           <br />
-          <center><button>Đăng ký</button> <button>Hủy</button></center>
+          <center><button type="submit">Login</button> <button type="reset">Cancel</button></center>
         </form>
       </div>
     </center>
