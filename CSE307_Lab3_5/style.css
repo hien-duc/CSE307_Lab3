@@ -6,13 +6,16 @@ header div#dn a:hover {
   color: #900;
 }
 #log {
+  clear: both;
   float: right;
 }
 #nav {
-  text-align: center;
+  clear: both;
+
   padding: 10px;
-  text-align: none;
+
   font-size: large;
+  float: left;
 }
 #nav a {
   padding: 60px;
