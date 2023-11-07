@@ -13,23 +13,24 @@
   <body>
     <header>
       <div id="dn">
-        <center><img src="logoABCbook.png" alt="" /></center>
+        <center><img src="/img/logoABCbook.png" alt="" /></center>
       </div>
+      <div id="gnav"></div>
       <div id="log">
-        <a href="login.html"
+        <a href="/Html/login.html"
           ><i class="fa fa-user" aria-hidden="true"></i>
           Login|
         </a>
-        <a href="Registration.html"> Registration </a>
+        <a href="/CSE307_Lab3_1/Registration.html"> Registration </a>
         <a href="#">
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart
         </a>
       </div>
     </header>
 
-    <nav>
-      <form action="">
-        <nav id="search">
+    <div id="gnav">
+      <nav>
+        <form action="" id="log">
           <input
             type="text"
             name=""
@@ -38,17 +39,12 @@
             required="true"
           />
           <button>Find books</button>
-        </nav>
-
-        <nav id="nav">
-          <a href="Homepage.html"><u>Home Page</u></a>
-
-          <a href="ImageandLink.html"><u>Introduction</u></a>
-
-          <a href="#"><u>Contact</u></a>
-        </nav>
-      </form>
-    </nav>
+        </form>
+        <a href="Homepage.html"><u>Home Page</u></a>
+        <a href="/CSE307_Lab3_4/ImageandLink.html"><u>Introduction</u></a>
+        <a href="#" id="con"><u>Contact</u></a>
+      </nav>
+    </div>
 
     <div id="body">
       <!-- Rules on the body of the page -->
@@ -88,7 +84,7 @@
               <tr>
                 <td>
                   <h1 style="color: blue">Giáo trình Tin học cơ bản</h1>
-                  <img src="xp.jpg" alt="tin hoc co ban" height="280" />
+                  <img src="/img/xp.jpg" alt="tin hoc co ban" height="280" />
                   <p>Đơn giá:</p>
                   <p style="color: red">26.000 VND</p>
 
@@ -96,10 +92,10 @@
                     type="image"
                     name=""
                     id=""
-                    src="buy.jpg"
+                    src="/img/buy.jpg"
                     style="width: 85px"
                     value="Đặt mua"
-                    onclick="window.location.href='detailproduct.html'"
+                    onclick="window.location.href='/html/detailproduct.html'"></
                   />
                 </td>
               </tr>
@@ -121,7 +117,7 @@
               <p>
                 <a href="#"
                   ><img
-                    src="EnglishForTech.jpg"
+                    src="/img/EnglishForTech.jpg"
                     alt=""
                     width="300"
                   />EnglishForTech</a
@@ -140,7 +136,11 @@
             >
               <p>
                 <a href="#"
-                  ><img src="BARC.png" alt="" width="300" />EnglishForTech</a
+                  ><img
+                    src="/img/BARC.png"
+                    alt=""
+                    width="300"
+                  />EnglishForTech</a
                 >
               </p></marquee
             >
@@ -155,7 +155,7 @@
               <p>
                 <a href="#"
                   ><img
-                    src="harrypotter.png"
+                    src="/img/harrypotter.png"
                     alt=""
                     width="300"
                   />HarryPotter</a
@@ -172,7 +172,7 @@
             >
               <p>
                 <a href="#"
-                  ><img src="Davinci.png" alt="" width="300" />Davinci</a
+                  ><img src="/img/Davinci.png" alt="" width="300" />Davinci</a
                 >
               </p></marquee
             >

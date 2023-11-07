@@ -1,34 +1,41 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0.5;
 }
-header div#dn a:hover {
+div nav a:hover {
   color: #900;
 }
-#log {
-  clear: both;
-  float: right;
-}
+
 #nav {
-  clear: both;
-
   padding: 10px;
-
   font-size: large;
   float: left;
-}
-#nav a {
-  padding: 60px;
 }
 
 nav {
   background-color: aquamarine;
+  padding: 10px;
 }
 #body {
   background-color: rgb(96, 188, 211);
 }
-#search {
-  text-align: right;
-  padding: 0px;
+#dn {
+  float: left;
+}
+#log {
+  float: right;
+}
+
+#gnav {
+  clear: both;
+}
+div nav a {
+  display: inline-block;
+  border-right: 2px solid black;
+  padding: 5px;
   font-size: large;
+}
+div nav a#con {
+  display: inline-block;
+  border-right: 0px solid black;
 }
